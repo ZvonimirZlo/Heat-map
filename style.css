@@ -1,0 +1,27 @@
+html{
+    min-height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+svg{
+    background-color: rgb(98, 165, 165);
+}
+#canvas{
+    min-height: 600px;
+    min-width: 1200px;
+}
+#legend{
+    color: mediumblue;
+}
+#title{
+    font-size: 28px;
+    color: #163D57;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
